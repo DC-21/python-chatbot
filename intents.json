@@ -1,0 +1,58 @@
+{ "intents": [
+              {"tag": "greetme",
+               "patterns": ["hi"],
+               "response": ["hi there"],
+               "context-set": " "
+              },
+              {"tag": "greethe",
+               "patterns": ["hello"],
+               "response": ["hello there"],
+               "context-set": " "
+              },
+              {"tag": "greets",
+              "patterns": ["anybody there"],
+              "response": ["how can i help you ?"],
+              "context-set": " "
+             },
+             {"tag": "greetafter",
+              "patterns": ["good afternoon", "afternoon there", "goodmorning"],
+              "response": ["good afternoon there, how can i help you ?"],
+              "context-set": " "
+             },
+             {"tag": "greetmo",
+              "patterns": ["good morning", "morning there", "goodafternoon"],
+              "response": ["good morning there, how can i help you ?"],
+              "context-set": " "
+             },
+             {"tag": "greeting",
+              "patterns": ["goodnight", "good night"],
+              "response": ["thanks and same", "sweet dreams"],
+              "context-set": " "
+             },
+             {"tag": "greetings",
+             "patterns": ["how are you"],
+             "response": ["fine thanks and how are you doing ?"],
+             "context-set": " "
+            },
+            {"tag": "goodbye",
+             "patterns": ["bye", "goodbye"],
+             "response": ["alright see you and type quit", "sad to see you go", "come back soon"],
+             "context-set": " "
+            },
+           {"tag": "age",
+           "patterns": ["how old are you ?"],
+           "response": ["am 21 years old and you ?"],
+           "context-set": " "
+          },
+          {"tag": "name",
+          "patterns": ["what should i call you ?", "what is your name ?", "who are you ?", "whats ya name", "whats your name"],
+          "response": ["i am DiCE"],
+          "context-set": " "
+         },
+         {"tag": "do",
+          "patterns": ["what do you do ?"],
+          "response": ["Well, am a python software developer as well as a web developer and cybersecurity personnel"],
+          "context-set": " "
+         }
+]
+}
